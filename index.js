@@ -39,7 +39,7 @@ app.get("/books/", async (request, response) => {
   response.send(booksArray);
 });
 
-//Create User Api
+//Create User API
 
 app.post("/users/", async (request, response) => {
   const { username, name, password, gender, location } = request.body;
